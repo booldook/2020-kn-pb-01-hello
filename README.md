@@ -59,6 +59,12 @@
 
 ![git](./img/c6.jpg)
 
+5. ** 각 컴퓨터에서 한번만 수행할 작업**
+```bash
+git config --global user.name "booldook"
+git config --global user.email "booldook@gmail.com"
+```
+
 ## 3. 다시 vscode 작업
 1.  ```ctrl+j``` 터미널 창을 연다.
 2. git을 초기화한다.
