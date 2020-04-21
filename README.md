@@ -54,4 +54,17 @@
 
 ![git](./img/c6.jpg)
 
+## 3. 다시 vscode 작업
+1.  ```ctrl+j``` 터미널 창을 연다.
+2. git을 초기화한다.
+```bash
+# git 초기화
+git init
+```
+
+3. github 연결
+```bash
+git remote add origin https://github.com/booldook/repo
+```
+
 
