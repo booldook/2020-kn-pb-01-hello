@@ -5,17 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>트와이스 홈페이지</title>
 	<style>
-		.header {text-align: center;}
-		a {margin-left: 20px; margin-right: 20px;}
+		html, body {margin: 0; padding: 0;} /* normalize */
+		/* color: red, #ff0000, hsl(0, 100%, 100%), rgb(255, 0, 0) */
+		.header {text-align: center; background-color: #0d4468; padding-top: 30px; padding-bottom: 30px;}
+		/* .navi {margin-left: 40px; margin-right: 40px;} */
+		.header > a {margin-left: 20px; margin-right: 20px;}
+
 	</style>
 </head>
 <body>
 	<!-- Header/Navigation -->
 	<div class="header">
-		<a href="./index.html">HOME</a>
-		<a href="./t1.html">TWICE1</a>
-		<a href="./t2.html">TWICE2</a>
-		<a href="./t3.html">TWICE3</a>
+		<a href="./index.html" class="navi">HOME</a>
+		<a href="./t1.html" class="navi">TWICE1</a>
+		<a href="./t2.html" class="navi">TWICE2</a>
+		<a href="./t3.html" class="navi">TWICE3</a>
 	</div>
 
 	<!-- Content -->
